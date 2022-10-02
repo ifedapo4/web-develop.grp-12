@@ -224,7 +224,7 @@ a.cap{
  	margin: 10px;
  }
 
- #foot a:hover{
+ .foot a:hover{
  	color: hsl(136, 65%, 51%) !important;
  }
 
@@ -235,17 +235,11 @@ a.cap{
  	color: hsl(0, 0%, 100%) !important;
  }
 
- ul,li,a{
+ .list a{
  	color: hsl(0, 0%, 100%) !important;
  	outline: none;
  	text-decoration: none;
- }
-
- ul,li a:hover{
- 	outline: none;
- 	color: hsl(136, 65%, 51%) !important;
- 	text-decoration: none;
- }
+}
 
  .word{
  	color: hsl(233, 8%, 62%);
